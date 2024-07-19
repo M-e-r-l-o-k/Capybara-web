@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    background: linear-gradient(86deg, rgb(255, 236, 189) 0%, rgb(243, 227, 255) 100%)
+}
+
+.div_flex_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.div_flex_column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
+}

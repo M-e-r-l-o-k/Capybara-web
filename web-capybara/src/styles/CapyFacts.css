@@ -1,0 +1,86 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #ff914d;
+}
+
+.mg_0 {
+    margin: 0;
+}
+
+.mg_bottom {
+    margin-bottom: 0;
+}
+
+.pd_0 {
+    padding: 0;
+}
+
+.white_block_shadow {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 4px #e3ebfc, 0 24px 48px #e6ebf566;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.white_block_shadow_img {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 4px #e3ebfc, 0 24px 48px #e6ebf566;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.image_border-radius {
+    border-radius: 12px;
+    height: 380px;
+}
+
+.white_text_block {
+    margin: 50px 0px 50px 0px;
+    width: 80%;
+    height: auto;
+}
+
+.text_border {
+    border-top-style: solid;
+    border-top-width: 2px;
+    width: 12%;
+    border-color: var(--ast-global-color-8);
+    margin: 15px 0px 15px 0px;
+}
+
+.image_width {
+    width: 84.35%;
+    justify-content: space-between;
+}
+
+.div_mg_bottom {
+    margin-bottom: 50px;
+}
+
+.min-height {
+    min-height: calc(100vh - 200px);  
+}
+
+@media screen and (width < 600px) {
+    .white_block_shadow {
+        width: 75%;
+    }
+    
+    .image_border-radius {
+        border-radius: 12px;
+        height: 180px;
+        width: 100%;
+    }
+
+    .white_block_shadow_img {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+}
