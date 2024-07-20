@@ -12,6 +12,13 @@ import CapybaraSwimming1 from "../assets/capybara-swimming1.gif"
 import CapybaraSwimming2 from "../assets/capybara-swimming2.gif"
 import CapybaraSwimming3 from "../assets/capybara-swimming3.jpg"
 
+import CapybaraChill1 from "../assets/capybara-chill1.gif";
+import CapybaraChill2 from "../assets/capybara-chill2.gif";
+import CapybaraChill3 from "../assets/capybara-chill3.gif";
+
+import CapybaraFriendly1 from "../assets/capybara-friendly1.gif";
+import CapybaraFriendly2 from "../assets/capybara-friendly2.gif";
+import CapybaraFriendly3 from "../assets/capybara-friendly3.gif";
 
 
 const Capybaras = () => {
@@ -24,7 +31,8 @@ const Capybaras = () => {
     const photos = {
         "a": [CapybaraEating1, CapybaraEating2, CapybaraEating3],
         "b": [CapybaraSwimming1, CapybaraSwimming2, CapybaraSwimming3],
-        "c": []
+        "c": [CapybaraChill1, CapybaraChill2, CapybaraChill3],
+        "d": [CapybaraFriendly1, CapybaraFriendly3, CapybaraFriendly2]
     }
 
     return (
@@ -38,6 +46,7 @@ const Capybaras = () => {
                                 <Radio.Button value="a">Кушает</Radio.Button>
                                 <Radio.Button value="b">Плавает</Radio.Button>
                                 <Radio.Button value="c">Отдыхает</Radio.Button>
+                                <Radio.Button value="d">Добрая</Radio.Button>
                             </Space>
                         </Radio.Group>
                     </div>
