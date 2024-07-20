@@ -22,38 +22,56 @@
     padding: 12px;
 }
 
-:where(.css-dev-only-do-not-override-p8b6i).ant-radio-button-wrapper {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 20px 20px 20px 20px;
-    padding-block: 0;
-    font-family: 'Open Sans', 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    background: rgb(255, 236, 189);
-    cursor: pointer;
-}
-
-:where(.css-dev-only-do-not-override-p8b6i).ant-radio-button-wrapper:hover {
-    color: orange;
-}
-
-:where(.css-dev-only-do-not-override-p8b6i).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
-    color: orange;
-}
-
-:where(.css-dev-only-do-not-override-p8b6i).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
-    z-index: 1;
-    color: orange;
-    background: #ffffff;
-    border-color: orange;
-}
-
 :where(.css-dev-only-do-not-override-p8b6i).ant-radio-group {
     margin: 0;
 }
 
 .gap_radio {
     gap: 50px;
+}
+
+.img_mg {
+    margin-right: 12px;
+}
+
+.capy_img {
+    height: 350px;
+}
+
+.items-alight_radio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capybaras_white_block_shadow_img {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 4px #e3ebfc, 0 24px 48px #e6ebf566;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+@media screen and (width < 800px) {
+    .min-height {
+        height: 100%; 
+    }
+
+    .capy_img {
+        width: 100%;
+    }
+
+    .capybaras_white_block_shadow_img {
+        width: 85%;
+        margin-bottom: 40px;
+    }
+
+    .img_mg {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    .mg_top {
+        margin-top: 50px;
+    }
 }
