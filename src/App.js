@@ -1,5 +1,5 @@
 // import libs:
-import React from "react";
+import React, {useEffect} from "react";
 import { Routes, Route } from 'react-router-dom';
 import { Fragment } from 'react';
 
@@ -14,6 +14,10 @@ import Footer from "./components/Footer.jsx";
 import './styles/reset.css';
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Capybara-web";
+  }, []);
+
   return (
     <Fragment>
       <Header />
